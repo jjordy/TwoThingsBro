@@ -20,8 +20,15 @@
     "process",
     "manager"
   ],
-  "author": "Jordan Addison",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjordy/TwoThingsBro.git"
+  },
+  "author": "Jordan Addison <jordanrileyaddison@gmail.com> (http://github.com/jjordy)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjordy/TwoThingsBro/issues"
+  },
   "dependencies": {
     "yargs": "^6.6.0"
   },
