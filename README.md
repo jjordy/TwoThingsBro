@@ -1,4 +1,6 @@
-# Two Things Bro -
+# Two Things Bro
+### Combine multiple commands into one console output. 
+### Supports debug from multiple different node processes.
 
 ```bash
 $ npm install -g two-things-bro
