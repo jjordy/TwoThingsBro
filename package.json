@@ -1,6 +1,6 @@
 {
   "name": "two-things-bro",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Run two npm commands (or more) at once in the console. With debug support!!!!",
   "main": "index.js",
   "bin": {
@@ -9,8 +9,8 @@
   "scripts": {
     "testCommand": "DEBUG=app:* && node testFile.js",
     "testCommand2": "DEBUG=app:* node testFile.js",
-    "bogus1":"",
-    "bogus2":"",
+    "bogus1": "",
+    "bogus2": "",
     "dev": "DEBUG=TwoThingsBro:* node index.js -t=testCommand --task=testCommand2",
     "dev2": "DEBUG=TwoThingsBro:* node index.js --task=-la -c=ls",
     "test": "mocha test.js"
